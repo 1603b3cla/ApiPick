@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(25, 139, 140);
+    background: linear-gradient(43deg, rgba(25, 139, 140, 1) 0%, rgba(8, 50, 108, 1) 44%, rgba(10, 31, 5, 1) 100%);
+}
+
+h1,
+#filters {
+    text-align: center;
+}
+
+#filters input,
+#filters #status-filter {
+    padding: 8px 16px;
+    margin: 10px;
+    border: 0;
+    font-size: 18px;
+    border: 1px solid rgb(89, 118, 120);
+    border-radius: 5px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card {
+    color: white;
+    /* Color del texto */
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(20, 34, 40);
+    border-radius: 8px;
+}
+
+#titulo {
+    color: white;
+    /* Color del texto */
+}
+
+.character-card img {
+    width: 100%;
+}
